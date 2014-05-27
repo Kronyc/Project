@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Archeage Helper</string>
+    <string name="Calc">Калькулятор</string>
+    <string name="Notification">Уведомления</string>
+
+    <string name="btnCalc">Калькулятор</string>
+    <string name="btnCalcTL">Калькулятор \n талантов</string>
+
+    <string name="version">Актуальная версия игры: 1.000.000</string>
+
+    <color name="colorBot">#858585</color>
+</resources>

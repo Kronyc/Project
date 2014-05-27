@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+
+    <!-- Первая ячейка: Картинка -->
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.3" >
+        <ImageButton
+                android:id="@+id/btnSite"
+                android:src="@drawable/logo1"
+                android:scaleType="fitXY"
+                android:paddingTop="3dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_centerVertical="true"
+                />
+    </RelativeLayout>
+
+    <!-- Вторая ячейка: Кнопки -->
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.63" >
+
+        <Button
+                android:id="@+id/btnCalc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Калькулятор"
+                android:layout_weight="1"
+                />
+        <Button
+                android:id="@+id/btnNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Уведомление"
+                android:layout_weight="1"
+                />
+
+
+    </LinearLayout>
+
+    <!-- Третья ячейка: Низ -->
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_height="0dip"
+            android:background="@color/colorBot"
+            android:layout_weight="0.08"
+            android:gravity="center">
+        <ImageButton
+                android:id="@+id/btnH"
+                android:src="@drawable/home"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="-4.5dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-2dp"
+                android:layout_marginBottom="-2dp"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"/>
+        <TextView
+                android:text="@string/version"
+                android:gravity="center"
+                android:layout_weight="0.2"
+                android:layout_marginRight="-4.5dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-2dp"
+                android:layout_marginBottom="-2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+        <ImageButton
+                android:id="@+id/btnQ"
+                android:src="@drawable/home"
+                android:scaleType="fitCenter"
+                android:layout_weight="0.4"
+                android:layout_marginRight="-4.5dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-2dp"
+                android:layout_marginBottom="-2dp"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                />
+    </LinearLayout>
+</LinearLayout>
